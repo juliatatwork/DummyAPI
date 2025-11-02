@@ -10,3 +10,5 @@
 
 
 ### POST
+___
+#### GET /post (GET LIST)
