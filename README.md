@@ -88,3 +88,5 @@ ___
 ```
 ___
 ## Майнд-карта
+Описание
+![Alt-текст](https://drive.google.com/file/d/1MsM_qzmAogowWue0Jnh21UGodi1He0yb/view?usp=sharing)
