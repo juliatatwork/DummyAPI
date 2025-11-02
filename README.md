@@ -16,7 +16,7 @@ ___
 - доступен query params для вывода пагинации
 - доступен query params для вывода определенного количества сообщений
 
-**Response Body:**
+**Request Body:**
 
 **List**
 ```javascript
@@ -44,7 +44,7 @@ ___
 #### POST /post/create (Create Post)
 Создает новую публикацию. Возвращает данные о созданной публикации.
 
-**Response Body:**
+**Request Body:**
 
 **User Full**
 ```javascript
@@ -75,5 +75,5 @@ ___
 ___
 
 
-''Request Body''
+**Response Body:**
 
