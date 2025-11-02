@@ -18,7 +18,7 @@ ___
 
 **Response Body:**
 
-*List*
+**List**
 ```javascript
 {
   data: Array(Model)
@@ -40,6 +40,7 @@ ___
   owner: object(User Preview)
 }
 ```
+___
 
 ''Request Body''
 
