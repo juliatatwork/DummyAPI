@@ -88,5 +88,5 @@ ___
 ```
 ___
 ## Майнд-карта
-Описание
+Данная майнд-карта представляет собой декомпозицию объекта POST, также указан набор данных для тестирования. Более подробно предосталены для объекта GetList и CreatePost.
 ![Alt-текст](https://drive.google.com/file/d/1MsM_qzmAogowWue0Jnh21UGodi1He0yb/view?usp=sharing)
