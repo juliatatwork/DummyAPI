@@ -1,0 +1,1190 @@
+{
+	"info": {
+		"_postman_id": "15b221bc-5c52-42ca-b32f-915fa9dd4664",
+		"name": "POST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47520042",
+		"_collection_link": "https://juliatat-work-2870712.postman.co/workspace/DummyApi~545b940c-5927-4b4b-9205-a1869a21aa0c/collection/47520042-15b221bc-5c52-42ca-b32f-915fa9dd4664?action=share&source=collection_link&creator=47520042"
+	},
+	"item": [
+		{
+			"name": "GetPostList",
+			"item": [
+				{
+					"name": "GetPostList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostList(POST)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostList(page=0)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post?page=0",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostList(page=1)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post?page=1",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostList(page=999)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post?page=999",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "999"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostList(page=1000)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post?page=1000",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostList(page=lat)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post?page=lat",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "lat"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostList(page-пустое)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post?page=",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostList(limit=4)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post?limit=4",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostList(limit=5)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post?limit=5",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostList(limit=50)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post?limit=50",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "50"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostList(limit=51)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post?limit=51",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "51"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostList(limit=lat)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post?limit=lat",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "lat"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostList(limit-пустое)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post?limit=",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostList(created=0)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post?created=0",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostList(created=1)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post?created=1",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostList(created=2)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post?created=2",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostList(created=lat)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post?created=lat",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "lat"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostList(created-пусто)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/post?created=",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CreatePost",
+			"item": [
+				{
+					"name": "CreatePost",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"animal\",\r\n        \"pet\"\r\n    ],\r\n    \"text\": \"Проверка!!\",\r\n        \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(GET)",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"animal\",\r\n        \"pet\"\r\n    ],\r\n    \"text\": \"Проверка!!\",\r\n    \"publishDate\": \"2025-10-18T20:29:40.996Z\",\r\n    \"updatedDate\": \"2025-10-18T20:36:23.108Z\",\r\n    \"owner\": {\r\n        \"id\": \"60d0fe4f5311236168a109e4\",\r\n        \"title\": \"mr\",\r\n        \"firstName\": \"Pwry\",\r\n        \"lastName\": \"Shylyrd\",\r\n        \"picture\": \"https://randomuser.me/api/portraits/med/men/37.jpg\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(body-пустое)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(text-пусто)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"animal\",\r\n        \"pet\"\r\n    ],\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(text=text1)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"animal\",\r\n        \"pet\"\r\n    ],\r\n    \"text\": \"text1\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(text=text12)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"animal\",\r\n        \"pet\"\r\n    ],\r\n    \"text\": \"text12\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(text-50)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"animal\",\r\n        \"pet\"\r\n    ],\r\n    \"text\": \"олимоырфыолрлгсоныпгфгргцпупнфо фгроамфгш пнофпыгп\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(text=34576238742974)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"animal\",\r\n        \"pet\"\r\n    ],\r\n    \"text\": \"34576238742974\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(text=!@&()_$%!)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"animal\",\r\n        \"pet\"\r\n    ],\r\n    \"text\": \"!@&()_$%!\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(image-пусто)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"animal\",\r\n        \"pet\"\r\n    ],\r\n    \"text\": \"текст1\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(image-валидный)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"dog\"\r\n    ],\r\n    \"text\": \"текст1\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(image-невалидный)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"img.dummyapi.io/new.jpg\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"dog\"\r\n    ],\r\n    \"text\": \"текст1\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(image=12324 )",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"12324\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"dog\"\r\n    ],\r\n    \"text\": \"текст1\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(image=!;№=*)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"!;№=*\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"dog\"\r\n    ],\r\n    \"text\": \"текст1\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(like-пусто)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"dog\"\r\n    ],\r\n    \"text\": \"текст1\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(like=0)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": 0,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"dog\"\r\n    ],\r\n    \"text\": \"текст1\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(like=1)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": 1,\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"dog\"\r\n    ],\r\n    \"text\": \"текст1\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(like=\"text\")",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": \"text\",\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"dog\"\r\n    ],\r\n    \"text\": \"текст1\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(like=\"!&#()\")",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": \"!&#()\",\r\n    \"link\": \"\",\r\n    \"tags\": [\r\n        \"dog\"\r\n    ],\r\n    \"text\": \"текст1\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(tags-пустое)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"text\": \"текст1\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(tags=animal)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": [\"animal\"],\r\n    \"text\": \"текст1\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(tags=0)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": 0,\r\n    \"text\": \"текст1\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(owner-пусто)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": [\"animal\"],\r\n    \"text\": \"текст1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(owner-валидное)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": [\"animal\"],\r\n    \"text\": \"текст1\",\r\n    \"owner\": \"60d0fe4f5311236168a109e4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(owner=2334555)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": [\"animal\"],\r\n    \"text\": \"текст1\",\r\n    \"owner\": 2334555\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePost(owner=!*$#@)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://img.dummyapi.io/new.jpg\",\r\n    \"likes\": 58,\r\n    \"link\": \"\",\r\n    \"tags\": [\"animal\"],\r\n    \"text\": \"текст1\",\r\n    \"owner\": \"!*$#@\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/post/create",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"post",
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{app_id}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "app-id",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
